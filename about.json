@@ -2,7 +2,7 @@
   "name": "Discourse Topic List Author",
   "component": true,
   "about_url": "https://meta.discourse.org/t/topic-list-author/269910",
-  "license_url": "https://github.com/Lillinator/topic-list-author/blob/main/LICENSE",
+  "license_url": "https://github.com/discourse/discourse-topic-list-author/blob/main/LICENSE",
   "authors": "Discourse",
   "theme_version": "0.0.2"
 }
