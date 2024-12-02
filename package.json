@@ -1,6 +1,6 @@
 {
   "name": "discourse-topic-list-author",
-  "repository": "https://github.com/Lillinator/topic-list-author",
+  "repository": "https://github.com/discourse/discourse-topic-list-author",
   "author": "Discourse",
   "license": "MIT",
   "devDependencies": {
