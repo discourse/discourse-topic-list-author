@@ -5,6 +5,6 @@ export default class AuthorColumnHeader extends EmberObject {
   @service site;
 
   get shouldShow() {
-    return this.site.mobileView ? false : this.setting === this.position;
+    return this.site.desktopView && this.setting === this.position;
   }
 }
