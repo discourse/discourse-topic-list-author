@@ -12,8 +12,8 @@ export default class AuthorColumnContent extends Component {
   <template>
     <td class="custom-author-column topic-list-data">
       <a
-        href="{{this.topic.creator.path}}"
-        data-user-card="{{this.topic.creator.username}}"
+        href={{this.topic.creator.path}}
+        data-user-card={{this.topic.creator.username}}
       >
         {{avatar this.topic.creator imageSize="45"}}
       </a>
