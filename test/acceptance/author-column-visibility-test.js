@@ -3,6 +3,10 @@ import { test } from "qunit";
 import { acceptance } from "discourse/tests/helpers/qunit-helpers";
 
 acceptance("Discourse Topic List Author", function (needs) {
+  needs.settings({
+    glimmer_topic_list_mode: "enabled",
+  });
+
   test("Author column is present on the left", async function (assert) {
     settings.column_position = "left";
 
