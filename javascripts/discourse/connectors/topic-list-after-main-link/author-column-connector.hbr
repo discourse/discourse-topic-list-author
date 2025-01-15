@@ -1,0 +1,2 @@
+{{!-- has-modern-replacement --}}
+{{raw "author-column-content" topic=context.topic setting=(theme-setting 'column_position') position="center" }}
