@@ -1,3 +1,4 @@
+{{!-- has-modern-replacement --}}
 {{#if view.shouldShow}}
   <th class='author topic-list-data' scope="col">
     {{theme-i18n "author"}}

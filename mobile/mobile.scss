@@ -1,11 +1,13 @@
 @if $column_position == "right" {
   .topic-list .topic-list-data {
-    .right {
-      margin-left: 0;
-    }
+    &:not(.bulk-select-enabled) {
+      .right {
+        margin-left: 0;
+      }
 
-    .pull-left {
-      display: none;
+      .pull-left {
+        display: none;
+      }
     }
 
     &.custom-author-column {
@@ -15,44 +17,65 @@
   }
 }
 
-@if $column_position == "left" or $column_position == "center" {
-  .topic-list {
-    .topic-list-item {
+// TODO: (discourse.hbr-topic-list-overrides) remove the styles below after the legacy topic list is removed from core
+body.hbr-topic-list__topic-list-author {
+  @if $column_position == "right" {
+    .topic-list .topic-list-data {
+      .right {
+        margin-left: 0;
+      }
+
       .pull-left {
         display: none;
       }
-    }
-    .topic-list-item-metadata {
-      margin-left: 0;
-    }
 
-    .custom-author-column {
-      vertical-align: top;
-      padding-top: 0.65em;
+      &.custom-author-column {
+        vertical-align: top;
+        padding-left: 1em;
+      }
     }
+  }
 
-    .topic-item-metadata {
-      position: relative;
-    }
+  @if $column_position == "left" or $column_position == "center" {
+    .topic-list {
+      .topic-list-item {
+        .pull-left {
+          display: none;
+        }
+      }
 
-    .main-link {
-      margin-right: 2em;
-    }
+      .topic-list-item-metadata {
+        margin-left: 0;
+      }
 
-    .pull-right {
-      float: none;
-      position: absolute;
-      top: 0.45em;
-      right: 0;
-    }
+      .custom-author-column {
+        vertical-align: top;
+        padding-top: 0.65em;
+      }
 
-    .posts-map {
-      color: var(--primary-medium);
-    }
+      .topic-item-metadata {
+        position: relative;
+      }
 
-    .right {
-      margin-left: 0.5em;
-      padding: 0.5em 0;
+      .main-link {
+        margin-right: 2em;
+      }
+
+      .pull-right {
+        float: none;
+        position: absolute;
+        top: 0.45em;
+        right: 0;
+      }
+
+      .posts-map {
+        color: var(--primary-medium);
+      }
+
+      .right {
+        margin-left: 0.5em;
+        padding: 0.5em 0;
+      }
     }
   }
 }
