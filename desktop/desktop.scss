@@ -1,7 +1,5 @@
 .topic-list {
-  th:not(.posts):not(.views):not(.activity):not(.author):not(.default):not(
-      .bulk-select
-    ) {
+  th:not(.posts, .views, .activity, .author, .default, .bulk-select) {
     // looks a little silly, but the column I want to hide doesn't have a class
     display: none;
   }
@@ -11,7 +9,6 @@
   }
 
   // bulk select adjustments
-
   button.bulk-select {
     text-align: center;
     margin-right: 0;
