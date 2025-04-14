@@ -1,8 +1,0 @@
-{{!-- has-modern-replacement --}}
-{{#if view.shouldShow}}
-  <td class='custom-author-column topic-list-data'>
-    <a href="{{topic.creator.path}}" data-user-card="{{topic.creator.username}}">
-      {{avatar topic.creator imageSize="45"}}
-    </a>
-  </td>
-{{/if}}
