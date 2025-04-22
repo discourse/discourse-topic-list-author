@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 pl_PL:
+  author: "Autor"
+  theme_metadata:
+    settings:
+      column_position: "Zmienia pozycję kolumny \"autor\". Zwróć uwagę, że pozycjonowanie środkowe nie działa na urządzeniach mobilnych i spowoduje powrót do pozycji lewej."
+  original_poster_link: "Profil %{username}, oryginalny autor posta"

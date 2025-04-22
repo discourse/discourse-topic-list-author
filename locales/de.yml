@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 de:
+  author: "Verfasser"
+  theme_metadata:
+    settings:
+      column_position: "Ändert die Position der Verfasserspalte. Beachte, dass eine mittige Positionierung auf Mobilgeräten nicht möglich ist und dort die Spalte stattdessen automatisch links angezeigt wird."
+  original_poster_link: "Profil von %{username}, Verfasser des Themas"
