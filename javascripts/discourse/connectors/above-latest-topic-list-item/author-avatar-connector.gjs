@@ -5,7 +5,6 @@ import CustomCategoriesLatestAvatar from "../../components/custom-categories-lat
 @classNames("above-latest-topic-list-item-outlet", "author-avatar-connector")
 export default class AuthorAvatarConnector extends Component {
   <template>
-    {{! has-modern-replacement }}
     <CustomCategoriesLatestAvatar @topic={{@outletArgs.topic}} />
   </template>
 }
