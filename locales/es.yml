@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 es:
+  author: "Autor"
+  theme_metadata:
+    settings:
+      column_position: "Cambia la posición de la columna Autor. Ten en cuenta que el posicionamiento centrado no funciona en dispositivos móviles y se desplazará hacia la izquierda."
+  original_poster_link: "Perfil de %{username}, autor original"
