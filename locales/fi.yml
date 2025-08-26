@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 fi:
+  author: "Kirjoittaja"
+  theme_metadata:
+    settings:
+      column_position: "Muuttaa Kirjoittaja-sarakkeen sijaintia. Huomaa, että keskitetty sijoittelu ei toimi mobiililaitteilla, joilla käytetään vasenta sijoittelua."
+  original_poster_link: "Käyttäjän %{username} profiili, alkuperäinen kirjoittaja"

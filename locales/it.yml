@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 it:
+  author: "Autore"
+  theme_metadata:
+    settings:
+      column_position: "Modifica la posizione della colonna Autore. Nota che il posizionamento al centro non funziona su dispositivi mobili e verrà riportato a sinistra."
+  original_poster_link: "Profilo di %{username}, autore originale"
