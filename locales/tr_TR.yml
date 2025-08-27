@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 tr_TR:
+  author: "Yazar"
+  theme_metadata:
+    settings:
+      column_position: "Yazar sütununun konumunu değiştirir. Ortaya yerleştirmenin mobil cihazlarda çalışmadığını ve sola döneceğini unutmayın."
+  original_poster_link: "%{username} adlı kullanıcının profili, orijinal gönderi sahibi"
