@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 zh_CN:
+  author: "作者"
+  theme_metadata:
+    settings:
+      column_position: "更改“作者”列的位置。请注意，居中定位在移动设备上不起作用，并且将回退到左侧。"
+  original_poster_link: "%{username} 的个人资料、原创海报"

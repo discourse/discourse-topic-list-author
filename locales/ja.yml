@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 ja:
+  author: "作成者"
+  theme_metadata:
+    settings:
+      column_position: "「作成者」列の位置を変更します。モバイルでは中央配置は機能しないため、左寄せが適用されることに注意してください。"
+  original_poster_link: "%{username} のプロファイル、元の投稿者"
