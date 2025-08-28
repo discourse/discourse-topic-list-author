@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 ar:
+  author: "المؤلف"
+  theme_metadata:
+    settings:
+      column_position: "تغيير موقع عمود \"المؤلف\". يُرجى الانتباه إلى أن اختيار المنتصف لا يعمل على الهاتف المحمول وسيتم الإرجاع إلى المحاذاة اليسرى."
+  original_poster_link: "الملف الشخصي لـ %{username}، الناشر الأصلي"

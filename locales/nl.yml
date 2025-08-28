@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 nl:
+  author: "Auteur"
+  theme_metadata:
+    settings:
+      column_position: "Wijzigt de positie van de kolom Auteur. Let op: de middenpositie werkt niet op mobiele apparaten en wordt teruggezet naar links."
+  original_poster_link: "Profiel van %{username}, originele schrijver"
