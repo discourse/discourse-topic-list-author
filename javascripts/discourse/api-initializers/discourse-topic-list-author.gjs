@@ -3,7 +3,7 @@ import AuthorColumnContent from "../components/author-column-content";
 import AuthorColumnHeader from "../components/author-column-header";
 import CustomCategoriesLatestAvatar from "../components/custom-categories-latest-avatar";
 
-export default apiInitializer("1.39.0", (api) => {
+export default apiInitializer((api) => {
   api.renderInOutlet(
     "latest-topic-list-item-topic-poster",
     CustomCategoriesLatestAvatar
