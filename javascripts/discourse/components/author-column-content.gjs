@@ -1,10 +1,7 @@
 import Component from "@glimmer/component";
-import { service } from "@ember/service";
 import avatar from "discourse/helpers/avatar";
 
 export default class AuthorColumnContent extends Component {
-  @service site;
-
   get topic() {
     return this.args.topic || this.args.outletArgs?.topic;
   }
