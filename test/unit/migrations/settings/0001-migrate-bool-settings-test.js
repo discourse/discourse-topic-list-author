@@ -96,11 +96,11 @@ module(
       );
       const result = migrate(settings);
 
-      assert.notOk(
+      assert.false(
         result.has("show_topic_author_column_first"),
         "Old setting show_topic_author_column_first is removed"
       );
-      assert.notOk(
+      assert.false(
         result.has("show_topic_author_column_last"),
         "Old setting show_topic_author_column_last is removed"
       );
